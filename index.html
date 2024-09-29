@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="controle.js"></script>
+    <title>Codex Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>RAGRANOK</h1>
+      <ul>
+        <li class="heads" onclick="searchbar()">Search</li>
+        <input type="text" name="" id="search" />
+        <li class="heads">Purchase</li>
+      </ul>
+    </header>
+    <nav>
+      <ul id="ul">
+        <li class="li"><a href="it.html" target="c1">Technologie</a></li>
+        <li class="li"><a href="clothes.html" target="c1">Clothes</a></li>
+      </ul>
+      <p>
+        In order to facilitate the searching of products you can sort products
+        by the criteria you want
+      </p>
+      <div id="radio">
+        <input type="radio" name="sort" id="date" class="a1" />Sort by date
+        <br />
+        <input type="radio" name="sort" id="price" class="a1" />Sort by price
+        <br />
+        <input type="radio" name="sort" id="popularity" class="a1" />Sort by
+        popularity
+      </div>
+      <button onclick="sort()">Apply Sort</button>
+    </nav>
+    <section>
+      <iframe src="it.html" frameborder="0" name="c1"></iframe>
+    </section>
+    <footer>
+      <div id="foot">© 2024 Codex Junior Entreprise</div>
+    </footer>
+  </body>
+</html>

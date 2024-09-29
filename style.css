@@ -1,0 +1,152 @@
+img{
+    height: 70px;
+    width: 70px;
+}
+h1{
+    margin-left: 60px;
+    width: 20%;
+    float: left;
+    color: #404041;
+    
+}
+.body{
+    background-color: #d3cae2;
+}
+.ul{
+    list-style: none;
+}
+.li{
+    margin-top: 15px;
+    margin-right: 40px;
+    color: black;
+}
+iframe{
+    height: 99%;
+    width: 99%;
+}
+body{
+    background-color: #404041;
+}
+#search{
+    visibility: hidden;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: inline-block;
+    background-color: #d3cae2;
+    box-shadow: 8px 7px 9px whitesmoke;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button{
+    margin-bottom: 50px;
+}
+#td1,#td2,#td3,#td4{
+    visibility: hidden;
+}
+
+nav{
+    width: 20%;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    background-color: #D3CAE2;
+    scale: 0.8;
+    transition: all 1s ease-in-out;
+    
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-left: 500px;
+    margin-right: 50px;
+
+
+}
+.a1{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+#radio{
+    margin-left: 50px;
+}
+li{
+    text-align: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 8px;
+    scale: 1;
+    background-color: #F6EDE3;
+}
+li:hover{
+    scale: 1.2;
+}
+h2{
+    text-align: center;
+    background-color: gray;
+}
+footer{
+    float: left;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    background-color: #D3CAE2;
+}
+button{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+nav:hover{
+    scale: 0.99;
+    box-shadow: 8px 7px 9px whitesmoke;
+}
+button:hover{
+    scale: 1.2;
+}
+section{
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 1176px;
+    
+    height: 600px;
+    background-color: #D3CAE2;
+    transition: all 1s ease-in-outS;
+}
+section:hover{
+    scale: 0.98;
+    box-shadow: 8px 7px 9px whitesmoke;
+}
+tr{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#foot{
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    flex: 1 1 300px;
+    margin: 10px;
+}
